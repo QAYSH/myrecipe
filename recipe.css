@@ -1,0 +1,134 @@
+body{
+    margin: 0px;
+    padding: 0px;
+  
+}
+.header{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0px;
+    line-height: 0.6;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header h1{
+    color: white;
+}
+.nav-ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;  
+}
+nav ul li {
+    margin:0px 15px;
+    margin-right: 50px ;
+}
+nav ul li a {
+    text-decoration: none;
+    text-align: center;
+    color: #f4f4f4;
+    font-weight: bold;
+}
+.nav-ul a:hover{
+    text-decoration: underline;
+}
+.first-section{
+    background:url("foodrecipe3.jpeg") no-repeat center center/cover;
+    padding: 10px 20px;
+    color: white;
+    text-align: center;
+}
+.first-section h2{
+    color: #333;
+    font-size: 2.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom:5px;
+}
+
+.first-section p{
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.featured-recipe{
+    background-color: #f4f4f4;
+    padding: 10px 0px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+.featured-recipe h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.grid{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.first-card{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: auto;
+    border:1px solid #ddd;
+    box-shadow: 0px 2px 5px rgba(0,0 0, 0,0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.contact{
+    font-family: Arial, Helvetica, sans-serif;
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: white;
+    border:1px solid #ddd;
+    border-radius: 10px;
+}
+h1{
+    color: #333;
+
+}
+form{
+    margin-top: 20px;
+    max-width: 500px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 20px;
+    border: 1px solid #333;
+    box-shadow: 3px 3px 5px #333;
+}
+input ,textarea{
+    width: 100%;
+    padding: 5px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: 1px solid #333;
+    box-sizing: border-box;
+   
+}
+button{
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    padding: 5px;
+    cursor: pointer;
+}
+
+
+footer{
+    background-color: #333;
+    color: #ddd;
+    text-align: center;
+    padding: 10px;
+}
